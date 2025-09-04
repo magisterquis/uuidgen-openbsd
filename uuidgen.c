@@ -37,7 +37,7 @@ main(void)
         uuid_t    uuid;
 
         if (-1 == pledge("stdio", ""))
-                err(14, "pledge");
+                err(10, "pledge");
 
         /* Generate a UUID. */
         bzero(&uuid, sizeof(uuid));
